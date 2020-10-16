@@ -1,0 +1,41 @@
+main{
+    background-color: #ccc;
+    color: rgb(36, 36, 36);
+    /* color: black; */
+    padding: 15px;
+    font-family: CustomFontMedium;
+}
+h2{
+    display: flex;
+    align-self: center;
+    padding: 5px 10px 20px 10px;
+    /* background-color: tomato; */
+}
+.personally-wrapper{
+    display: flex;
+    flex-flow: row;    
+}
+.personally{
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+}
+.profile-picture{
+    display: flex;
+    width: 30%;
+    align-self: center;
+    padding-bottom: 10px;
+}
+.personally-name{
+    display: flex;
+    align-self: center;
+    padding: 10px 0;
+    font-size: 25px;
+}
+.personally-text{
+    display: flex;
+    align-self: center;
+}
+/* h1{
+    font-size: 30px;
+} */
